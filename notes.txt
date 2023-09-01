@@ -1,0 +1,12 @@
+Pin Connections:
+GND Black   39
+LAK White   33
+CLK Blue    29
+DA  Purple  13
+EN  Orange  32
+VCC Red     -
+
+LED Controller Datasheet: http://www.starchips.com.tw/pdf/datasheet/SCT2024V01_03.pdf
+
+Matrix Details:
+Size: 16x16 split into two 8 wide columns

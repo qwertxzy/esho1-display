@@ -1,7 +1,7 @@
 from TextUtils import Scroller
 
 charset_path = 'charset.png'
-charset_lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz°1234567890@'
+charset_lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz°1234567890@-%:'
 host = "127.0.0.1"
 port = 6969
 

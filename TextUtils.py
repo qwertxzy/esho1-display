@@ -11,8 +11,9 @@ class Scroller:
     self.__debug = debug
     self.__charset_lookup = charset_lookup
 
-    for y in range(0, 32, 16):
-      for x in range(0, 512, 16):
+    (charset_ynum, charset_xnum) = __charset.shape
+    for y in range(0, charset_ynum * 16, 16):
+      for x in range(0, charset_xnum * 16, 16):
         char = self.__charset[y : y + 16, x : x + 16]
         self.__chars.append(char)
 
@@ -61,4 +62,3 @@ class Scroller:
     '''Sets a new message to be displayed next.'''
     self.__switch_msg = True
     self.__next_msg = msg
-    
